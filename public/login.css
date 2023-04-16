@@ -1,0 +1,156 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+border: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(bodyText.otf);
+  }
+
+  h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./images/backgroundSS.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;  
+}
+
+.box {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 15px #00000033;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: -250px;
+}
+
+.design {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.design div:first-child() {
+    width: 190px;
+    height: 90px;
+    border-radius: 50px;
+    background: linear-gradient(-90deg, #7f379b, #f14608);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -40px;
+    left: 120px;
+}
+
+.design div:nth-child(2) {
+    width: 450px;
+    height: 230px;
+    border-radius: 200px;
+    background: linear-gradient(-90deg, #ffd800, #f58b0a);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -163px;
+    border: 25px solid #e2c4e0;
+}
+
+.design div:nth-child(3) {
+    width: 190px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(-70deg, #e3e30f, #ff6a84);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 70;
+    left: -100px;
+}
+
+.design div:last-child{
+    width: 190px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(-90deg, #a00cdb, #f13f09);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -50;
+    left: 100px;
+}
+
+
+.form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 75px;
+}
+
+.form h2{
+    margin-bottom: 15px;
+}
+
+.input-field{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1em;
+    color: #000;
+    background-color: #e6e697;
+    letter-spacing: 1px;
+}
+
+.input-field:placeholder{
+    color: #f7f6f6;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: #a92fd6;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#main__img {
+    height: 30%;
+    width: auto;
+    display: flex;
+    position: fixed;
+    margin: -135px 30px;
+  }
+
+.register {
+    position: fixed;
+    bottom: 250px;
+    left: 200px;
+    color: white;
+}
+
+.register a{
+    text-decoration: none;
+    color: #e3e30f;
+}
